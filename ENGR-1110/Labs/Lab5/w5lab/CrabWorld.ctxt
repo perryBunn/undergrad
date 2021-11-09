@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CrabWorld
+comment1.params=
+comment1.target=CrabWorld()
+comment1.text=\r\n\ Create\ the\ crab\ world\ (the\ beach).\ Our\ world\ has\ a\ size\ \r\n\ of\ 560x560\ cells,\ where\ every\ cell\ is\ just\ 1\ pixel.\r\n
+numComments=2

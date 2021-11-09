@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Radio()
+comment1.params=song
+comment1.target=void\ play(int)
+comment1.text=\n\ Play\ a\ song.\ There\ are\ only\ two\ valid\ parameter\ values\:\ 1\ or\ 2.\n
+comment2.params=
+comment2.target=void\ stop()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

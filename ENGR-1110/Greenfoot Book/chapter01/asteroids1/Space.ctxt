@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Space()
+comment0.text=\n\ Create\ the\ space\ world\ with\ black\ background\ and\ stars.\n
+comment1.params=number
+comment1.target=void\ createStars(int)
+comment1.text=\n\ Create\ some\ random\ stars\ in\ the\ world\n
+numComments=2

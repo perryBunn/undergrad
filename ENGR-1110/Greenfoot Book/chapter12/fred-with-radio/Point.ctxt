@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Point()
+comment1.params=offset
+comment1.target=void\ setYOffset(double)
+comment1.text=\n\ Define\ an\ offset\ for\ the\ reported\ position\ from\ the\ actual\ position\ in\ the\ y\ axis.\n
+comment2.params=x\ y
+comment2.target=void\ set(int,\ int)
+comment3.params=
+comment3.target=int\ getX()
+comment3.text=\n\ Return\ the\ current\ X\ coordinate.\n
+comment4.params=
+comment4.target=int\ getY()
+comment4.text=\n\ Return\ the\ current\ Y\ coordinate.\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

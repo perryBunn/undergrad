@@ -1,0 +1,89 @@
+Script started on Tue 22 Jan 2019 01:10:48 PM CST
+[?1034hbash-4.2$ pwd
+/home/u3/ptb0010/temp
+bash-4.2$ ls
+commands.script  cpuinfo.md  interrupts.md  lspci.md  meminfo.md
+bash-4.2$ mkdir example
+bash-4.2$ nano example.md
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: example.md                                   [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[23d[J[24;81H[24;1H[?1049l[?1l>bash-4.2$ cp example/[K.md nameChanged.md
+cp: cannot stat ‘example.md’: No such file or directory
+bash-4.2$ ls
+commands.script  cpuinfo.md  example  interrupts.md  lspci.md  meminfo.md
+bash-4.2$ nano example.md
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1              File: example.md                                   [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;72H(B[0;7mModified[3d(B[mExample[4d[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                     [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: example.md                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format	(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel	    (B[0;7mM-M(B[m Mac Format	(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;72H(B[0;7m        [22;32H(B[m[1K	(B[0;7m[ Wrote 2 lines ](B[m[K[24;81H[24;1H[?1049l[?1l>bash-4.2$ nano example.md[C[C[C[C[C[C[C[C[C[Cls[Kcp example.md nameChanged.md
+bash-4.2$ rm nameChanged.md 
+bash-4.2$ who
+ptb0010  pts/3        2019-01-22 12:54 (ettin.eng.auburn.edu)
+rzw0022  pts/1        2018-12-23 19:41 (:1)
+rzw0022  pts/2        2018-12-25 16:00 (:1)
+ptb0010  pts/4        2019-01-22 13:10
+rzw0022  pts/6        2018-12-27 16:04 (:1)
+rzw0022  pts/0        2019-01-08 21:44 (:1)
+bash-4.2$ nproc
+16
+bash-4.2$ g++ --j[Kh
+Usage: g++ [options] file...
+Options:
+  -pass-exit-codes         Exit with highest error code from a phase
+  --help                   Display this information
+  --target-help            Display target specific command line options
+  --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...]
+                           Display specific types of command line options
+  (Use '-v --help' to display command line options of sub-processes)
+  --version                Display compiler version information
+  -dumpspecs               Display all of the built in spec strings
+  -dumpversion             Display the version of the compiler
+  -dumpmachine             Display the compiler's target processor
+  -print-search-dirs       Display the directories in the compiler's search path
+  -print-libgcc-file-name  Display the name of the compiler's companion library
+  -print-file-name=<lib>   Display the full path to library <lib>
+  -print-prog-name=<prog>  Display the full path to compiler component <prog>
+  -print-multiarch         Display the target's normalized GNU triplet, used as
+                           a component in the library path
+  -print-multi-directory   Display the root directory for versions of libgcc
+  -print-multi-lib         Display the mapping between command line options and
+                           multiple library search directories
+  -print-multi-os-directory Display the relative path to OS libraries
+  -print-sysroot           Display the target libraries directory
+  -print-sysroot-headers-suffix Display the sysroot suffix used to find headers
+  -Wa,<options>            Pass comma-separated <options> on to the assembler
+  -Wp,<options>            Pass comma-separated <options> on to the preprocessor
+  -Wl,<options>            Pass comma-separated <options> on to the linker
+  -Xassembler <arg>        Pass <arg> on to the assembler
+  -Xpreprocessor <arg>     Pass <arg> on to the preprocessor
+  -Xlinker <arg>           Pass <arg> on to the linker
+  -save-temps              Do not delete intermediate files
+  -save-temps=<arg>        Do not delete intermediate files
+  -no-canonical-prefixes   Do not canonicalize paths when building relative
+                           prefixes to other gcc components
+  -pipe                    Use pipes rather than intermediate files
+  -time                    Time the execution of each subprocess
+  -specs=<file>            Override built-in specs with the contents of <file>
+  -std=<standard>          Assume that the input sources are for <standard>
+  --sysroot=<directory>    Use <directory> as the root directory for headers
+                           and libraries
+  -B <directory>           Add <directory> to the compiler's search paths
+  -v                       Display the programs invoked by the compiler
+  -###                     Like -v but options quoted and commands not executed
+  -E                       Preprocess only; do not compile, assemble or link
+  -S                       Compile only; do not assemble or link
+  -c                       Compile and assemble, but do not link
+  -o <file>                Place the output into <file>
+  -pie                     Create a position independent executable
+  -shared                  Create a shared library
+  -x <language>            Specify the language of the following input files
+                           Permissible languages include: c c++ assembler none
+                           'none' means revert to the default behavior of
+                           guessing the language based on the file's extension
+
+Options starting with -g, -f, -m, -O, -W, or --param are automatically
+ passed on to the various sub-processes invoked by g++.  In order to pass
+ other options on to these processes the -W<letter> options must be used.
+
+For bug reporting instructions, please see:
+<http://bugzilla.redhat.com/bugzilla>.
+bash-4.2$ l[Kclear
+[3;J[H[2Jbash-4.2$ exit
+exit
+
+Script done on Tue 22 Jan 2019 01:12:45 PM CST

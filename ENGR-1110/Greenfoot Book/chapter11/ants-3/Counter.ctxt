@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Counter()
+comment0.text=\n\ Create\ a\ counter\ without\ a\ text\ prefix,\ initialized\ to\ zero.\n
+comment1.params=prefix
+comment1.target=Counter(java.lang.String)
+comment1.text=\n\ Create\ a\ counter\ with\ a\ given\ text\ prefix,\ initialized\ to\ zero.\n
+comment2.params=
+comment2.target=void\ increment()
+comment2.text=\n\ Increment\ the\ counter\ value\ by\ one.\n
+comment3.params=
+comment3.target=void\ updateImage()
+comment3.text=\n\ Show\ the\ current\ text\ and\ count\ on\ this\ actor's\ image.\n
+numComments=4

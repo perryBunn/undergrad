@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Balloon
+comment0.text=\r\n\ A\ balloon\ flows\ from\ bottom\ to\ top.\r\n\ Based\ on\ a\ class\ created\ by\ Poul\ Henriksen.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Move\ vertically\ one\ pixel.\ Stop\ the\ scenario\ if\r\n\ this\ balloon\ is\ past\ the\ top\ edge\ of\ the\ visible\r\n\ world.\r\n
+numComments=2

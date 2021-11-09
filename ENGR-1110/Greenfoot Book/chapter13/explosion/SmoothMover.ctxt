@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SmoothMover()
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Move\ forward\ one\ step.\n
+comment2.params=
+comment2.target=boolean\ outOfWorld()
+comment3.params=x\ y
+comment3.target=void\ setLocation(double,\ double)
+comment3.text=\n\ Providing\ 'setLocation'\ based\ on\ doubles.\ This\ will\ eventually\ call\n\ the\ built-in\ 'setLocation'\ method\ in\ Actor.\n
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+comment4.text=\n\ Override\ the\ default\ 'setLocation'\ method\ to\ keep\ our\ own\ coordinates\n\ up-to-date.\n
+numComments=5

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rocket()
+comment0.text=\n\ Initialise\ this\ rocket.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Do\ what\ a\ rocket's\ gotta\ do.\ (Which\ is\:\ mostly\ flying\ about,\ and\ turning,\n\ accelerating\ and\ shooting\ when\ the\ right\ keys\ are\ pressed.)\n
+comment2.params=
+comment2.target=void\ checkKeys()
+comment2.text=\n\ Check\ whether\ there\ are\ any\ key\ pressed\ and\ react\ to\ them.\n
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\n\ Check\ whether\ we\ are\ colliding\ with\ an\ asteroid.\n
+comment4.params=boosterOn
+comment4.target=void\ ignite(boolean)
+comment4.text=\n\ Should\ the\ rocket\ be\ ignited?\n
+comment5.params=
+comment5.target=void\ fire()
+comment5.text=\n\ Fire\ a\ bullet\ if\ the\ gun\ is\ ready.\n
+comment6.params=
+comment6.target=void\ startProtonWave()
+comment6.text=\n\ Release\ a\ proton\ wave\ (if\ it\ is\ loaded).\n
+numComments=7

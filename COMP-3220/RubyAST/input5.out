@@ -1,0 +1,3 @@
+Expected id found ;
+There were 1 parse errors found.
+( program program ( print print ( addop + id y id x ) ) assignment assignment )

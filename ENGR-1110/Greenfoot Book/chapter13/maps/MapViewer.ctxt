@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MapViewer()
+comment0.text=\n\ Create\ a\ new\ map\ viewer\ centered\ on\ the\ University\ of\ Kent,\ but\ fairly\n\ far\ zoomed\ out.\n
+comment1.params=
+comment1.target=void\ zoomIn()
+comment1.text=\n\ Zoom\ in\ at\ the\ current\ view.\n
+comment2.params=
+comment2.target=void\ zoomOut()
+comment2.text=\n\ Zoom\ in\ out\ the\ current\ view.\n
+comment3.params=type
+comment3.target=void\ setType(java.lang.String)
+comment3.text=\n\ Set\ the\ map\ type.\ Possible\ parameters\ are\ "roadmap",\ "satellite",\ "hybrid"\ or\ "terrain".\n
+comment4.params=
+comment4.target=void\ prepare()
+comment4.text=\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ That\ is\:\ create\ the\ initial\n\ objects\ and\ add\ them\ to\ the\ world.\n
+numComments=5

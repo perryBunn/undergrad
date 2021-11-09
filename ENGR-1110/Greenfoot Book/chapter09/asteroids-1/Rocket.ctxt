@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rocket()
+comment0.text=\n\ Initialise\ this\ rocket.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Do\ what\ a\ rocket's\ gotta\ do.\ (Which\ is\:\ mostly\ flying\ about,\ and\ turning,\n\ accelerating\ and\ shooting\ when\ the\ right\ keys\ are\ pressed.)\n
+comment2.params=
+comment2.target=void\ checkKeys()
+comment2.text=\n\ Check\ whether\ there\ are\ any\ key\ pressed\ and\ react\ to\ them.\n
+comment3.params=
+comment3.target=void\ fire()
+comment3.text=\n\ Fire\ a\ bullet\ if\ the\ gun\ is\ ready.\n
+numComments=4

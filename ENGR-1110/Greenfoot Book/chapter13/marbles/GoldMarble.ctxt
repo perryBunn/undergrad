@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=void\ checkDrag()
+comment1.text=\n\ Check\ whether\ we\ have\ a\ mouse\ drag\ gesture.\ Then\ we\ need\ to\ show\ the\ force\ arrow.\n
+comment2.params=
+comment2.target=void\ hasDropped()
+comment2.text=\n\ This\ marble\ has\ dropped.\ Do\ whatever\ is\ necessary.\n
+numComments=3

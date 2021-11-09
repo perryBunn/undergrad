@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Explosion
+comment0.text=\r\n\ An\ explosion.\ It\ starts\ by\ expanding\ and\ then\ collapsing.\ \r\n\ The\ explosion\ will\ explode\ other\ objects\ that\ the\ explosion\ intersects.\r\n\ \r\n\ Based\ on\ a\ class\ created\ by\ Poul\ Henriksen.\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2

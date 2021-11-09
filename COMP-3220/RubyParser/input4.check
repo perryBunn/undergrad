@@ -1,0 +1,39 @@
+Entering STMT Rule
+Entering ASSGN Rule
+Found ID Token: x
+Expected = found +
+Entering EXP Rule
+Entering TERM Rule
+Entering FACTOR Rule
+Found ID Token: y
+Exiting FACTOR Rule
+Entering TTAIL Rule
+Did not find MULTOP or DIVOP Token, choosing EPSILON production
+Exiting TTAIL Rule
+Exiting TERM Rule
+Entering ETAIL Rule
+Did not find ADDOP or SUBOP Token, choosing EPSILON production
+Exiting ETAIL Rule
+Exiting EXP Rule
+Exiting ASSGN Rule
+Exiting STMT Rule
+Entering STMT Rule
+Entering ASSGN Rule
+Expected id found =
+Expected = found 3
+Entering EXP Rule
+Entering TERM Rule
+Entering FACTOR Rule
+Expected ( or INT or ID found eof
+Exiting FACTOR Rule
+Entering TTAIL Rule
+Did not find MULTOP or DIVOP Token, choosing EPSILON production
+Exiting TTAIL Rule
+Exiting TERM Rule
+Entering ETAIL Rule
+Did not find ADDOP or SUBOP Token, choosing EPSILON production
+Exiting ETAIL Rule
+Exiting EXP Rule
+Exiting ASSGN Rule
+Exiting STMT Rule
+There were 4 parse errors found.

@@ -1,0 +1,12 @@
+Auburn's Best Bakery
+C,Chips Delight,Chocolate Chip,12,flour,sugar,dark chocolate chips,butter,baking soda,salt
+D,Chips Delight,Chocolate Chip,12,flour,sugar,dark chocolate chips,butter,baking soda,salt
+P,Weekly Special,Apple,1,0,flour,sugar,apple,cinnamon,butter,baking soda,salt
+P,Daily Special,Pecan,1.0,0,flour,sugar,pecans,dark corn syrup,butter,baking soda,salt
+R,Weekly Special,Apple,1,0,flour,sugar,apple,cinnamon,butter,baking soda,salt
+P,Summer Special,Key Lime,1,2.0,flour,sugar,lime juice,lemon juice,graham crackers,butter,baking soda,salt
+K,Birthday,Chocolate,1,1,flour,sugar,cocoa powder,vanilla,eggs,butter,baking soda,baking powder,salt
+K,2-Layer,Red Velvet,1,2,flour,sugar,cocoa powder,food coloring,eggs,butter,baking soda,baking powder,salt
+K,2-Layer,Chocolate,1,two,flour,sugar,cocoa powder,eggs,butter,baking soda,baking powder,salt
+W,3-Layer/3-Tier,Buttermilk,1,3
+W,3-Layer/3-Tier,Vanilla,1,3,3,flour,sugar,buttermilk,coffee,eggs,butter,baking soda,baking powder,salt

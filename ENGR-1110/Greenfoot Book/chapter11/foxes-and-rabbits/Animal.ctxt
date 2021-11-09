@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Animal()
+comment0.text=\n\ Create\ a\ new\ animal\ with\ age\ zero\ (a\ new\ born).\n
+comment1.params=
+comment1.target=boolean\ isAlive()
+comment1.text=\n\ Check\ whether\ the\ animal\ is\ alive\ or\ not.\n\ @return\ True\ if\ the\ animal\ is\ still\ alive.\n
+comment2.params=
+comment2.target=void\ setDead()
+comment2.text=\n\ Tell\ the\ animal\ that\ it's\ dead\ now\ \:(\n
+comment3.params=
+comment3.target=int\ getAge()
+comment3.text=\n\ Return\ the\ animal's\ age.\n\ @return\ The\ animal's\ age.\n
+comment4.params=age
+comment4.target=void\ setAge(int)
+comment4.text=\n\ Set\ the\ animal's\ age.\n\ @param\ age\ The\ animal's\ age.\n
+comment5.params=
+comment5.target=Field\ getField()
+comment5.text=\n\ Return\ the\ field\ we\ live\ in.\n
+numComments=6

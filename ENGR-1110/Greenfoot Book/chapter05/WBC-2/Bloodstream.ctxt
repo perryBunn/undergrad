@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bloodstream()
+comment0.text=\n\ Constructor\:\ Set\ up\ the\ staring\ objects.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Create\ new\ floating\ objects\ at\ irregular\ intervals.\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ In\ this\ case\:\ Create\n\ a\ white\ blood\ cell\ and\ the\ lining\ at\ the\ edge\ of\ the\ blood\ stream.\n
+numComments=3

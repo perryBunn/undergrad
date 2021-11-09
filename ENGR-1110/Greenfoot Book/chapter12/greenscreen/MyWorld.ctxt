@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyWorld()
+comment0.text=\n\ Construct\ a\ world\ with\ default\ dimensions\ for\ the\ Kinect\ (640x480).\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ World\ act\ -\ nothing\ to\ do.\n
+numComments=2

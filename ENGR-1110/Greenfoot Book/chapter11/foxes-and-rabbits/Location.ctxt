@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Location(int,\ int)
+comment0.text=\n\ Represent\ a\ coordinate.\n\ @param\ x\ The\ horizontal\ coordinate.\n\ @param\ y\ The\ vertical\ coordinate.\n
+comment1.params=obj
+comment1.target=boolean\ equals(java.lang.Object)
+comment1.text=\n\ Implement\ content\ equality.\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Return\ a\ string\ of\ the\ form\ x,y\n\ @return\ A\ string\ representation\ of\ the\ location.\n
+comment3.params=
+comment3.target=int\ hashCode()
+comment3.text=\n\ Use\ the\ top\ 16\ bits\ for\ the\ x\ value\ and\ the\ bottom\ for\n\ the\ y.\ Except\ for\ very\ big\ grids,\ this\ should\ give\ a\n\ unique\ hash\ code\ for\ each\ (x,\ y)\ pair.\n\ @return\ A\ hashcode\ for\ the\ location.\n
+comment4.params=
+comment4.target=int\ getX()
+comment4.text=\n\ @return\ The\ x.\n
+comment5.params=
+comment5.target=int\ getY()
+comment5.text=\n\ @return\ The\ y.\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Space
+comment0.text=\r\n\ Space.\ Something\ for\ rockets\ to\ fly\ in...\r\n\ \r\n\ @author\ Michael\ Kolling\r\n
+comment1.params=
+comment1.target=Space()
+comment2.params=number
+comment2.target=void\ createStars(int)
+comment3.params=number
+comment3.target=void\ createAsteroids(int)
+comment4.params=
+comment4.target=void\ createRocket()
+numComments=5

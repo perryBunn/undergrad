@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ForExercises1Through9
+comment0.text=\r\n\ Provides\ an\ Actor\ class\ in\ which\ you\ can\ complete\r\n\ exercises\ 4.1\ through\ 4.9\ in\ the\ Greenfoot\ text.\r\n\ \r\n\ @author\ Dean\ Hendrix\ (dh@auburn.edu)\ \r\n\ @version\ 2016-02-12\r\n
+comment1.params=
+comment1.target=void\ checkExercises()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Intended\ to\ be\ left\ blank.\r\n
+numComments=3

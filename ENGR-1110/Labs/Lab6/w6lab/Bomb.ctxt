@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bomb
+comment0.text=\r\n\ \ A\ bomb\ can\ be\ used\ to\ explode\ balloons.\ \r\n\ \ Based\ on\ a\ class\ created\ by\ Poul\ Henriksen.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Check\ the\ mouse\ and\ make\ the\ bomb\ draggable.\ \ \r\n\r\n
+numComments=2

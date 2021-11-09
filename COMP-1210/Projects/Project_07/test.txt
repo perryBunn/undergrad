@@ -1,0 +1,22 @@
+Dodecahedron Test List
+Small Example
+blue
+0.25
+Medium Example
+orange
+10.1
+Test
+white
+.10
+Large Example
+silver
+200.5
+test Two
+red
+.05
+Extra Large Example
+Gold
+400.0
+test Three
+cyan
+.025

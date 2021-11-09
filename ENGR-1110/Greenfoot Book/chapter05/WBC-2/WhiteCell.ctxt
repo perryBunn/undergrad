@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act\:\ move\ up\ and\ down\ when\ cursor\ keys\ are\ pressed.\n
+comment1.params=
+comment1.target=void\ checkKeyPress()
+comment1.text=\n\ Check\ whether\ a\ keyboard\ key\ has\ been\ pressed\ and\ react\ if\ it\ has.\n
+comment2.params=
+comment2.target=void\ checkCollision()
+comment2.text=\n\ Check\ whether\ we\ are\ touching\ a\ bacterium\ or\ virus.\ Remove\ bacteria.\n\ Game\ over\ if\ we\ hit\ a\ virus.\n
+numComments=3

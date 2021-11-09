@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PongWorld()
+comment0.text=\n\ Create\ the\ game\ world\ with\ the\ game\ objects\ in\ it.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Nothing\ to\ do.\n
+numComments=2

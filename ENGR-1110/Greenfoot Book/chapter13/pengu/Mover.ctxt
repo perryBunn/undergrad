@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ moveRight()
+comment1.params=
+comment1.target=void\ moveLeft()
+comment2.params=
+comment2.target=boolean\ onGround()
+comment3.params=speed
+comment3.target=void\ setVSpeed(int)
+comment4.params=
+comment4.target=void\ fall()
+comment5.params=
+comment5.target=boolean\ atBottom()
+comment6.params=
+comment6.target=void\ gameEnd()
+numComments=7

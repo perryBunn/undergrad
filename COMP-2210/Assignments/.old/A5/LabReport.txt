@@ -1,0 +1,32 @@
+% A5 Lab Report
+% Your Name
+% Date you turned this in
+
+# Benchmarking the ArrayStrand implementation
+
+## Show that ArrayStrand.cutAndSplice() is O(N)
+Record your response here.
+
+## Determine the largest power-of-two splice supported with 512M heap
+Record your response here.
+
+## Determine the largest power-of-two splice supported with 1024M heap
+Record your response here.
+
+## Determine the largest power-of-two splice supported as heap doubles
+Record your response here.
+
+
+# Verifying the LinkedStrand implementation
+
+## Show that LinkedStrand.cutAndSplice() is O(1)
+Record your response here.
+
+## Determine the largest power-of-two splice supported with 512M heap
+Record your response here.
+
+## Determine the largest power-of-two splice supported with 1024M heap
+Record your response here.
+
+## Determine the largest power-of-two splice supported as heap doubles
+Record your response here.

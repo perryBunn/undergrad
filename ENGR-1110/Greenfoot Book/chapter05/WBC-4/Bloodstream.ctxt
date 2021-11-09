@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bloodstream()
+comment0.text=\n\ Constructor\:\ Set\ up\ the\ staring\ objects.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Create\ new\ floating\ objects\ at\ irregular\ intervals.\n
+comment2.params=points
+comment2.target=void\ addScore(int)
+comment2.text=\n\ Add\ some\ points\ to\ our\ current\ score.\ (May\ be\ negative.)\n\ If\ the\ score\ falls\ below\ 0,\ game's\ up.\n
+comment3.params=
+comment3.target=void\ showScore()
+comment3.text=\n\ Show\ our\ current\ score\ on\ screen.\n
+comment4.params=
+comment4.target=void\ countTime()
+comment4.text=\n\ Count\ down\ the\ game\ time\ and\ display\ it.\ Stop\ the\ game\ \n\ with\ a\ winning\ message\ when\ time\ is\ up.\n
+comment5.params=
+comment5.target=void\ showTime()
+comment5.text=\n\ Show\ the\ remaining\ game\ time\ on\ screen.\n
+comment6.params=
+comment6.target=void\ showEndMessage()
+comment6.text=\n\ Show\ the\ end-of-game\ message\ on\ screen.\n
+comment7.params=
+comment7.target=void\ prepare()
+comment7.text=\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\ In\ this\ case\:\ Create\n\ a\ white\ blood\ cell\ and\ the\ lining\ at\ the\ edge\ of\ the\ blood\ stream.\n
+numComments=8

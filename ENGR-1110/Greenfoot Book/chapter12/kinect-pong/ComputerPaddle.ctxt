@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ComputerPaddle()
+comment0.text=\n\ Create\ a\ computer\ paddle.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ towards\ the\ ball.\ When\ there\ is\ no\ ball,\ go\ into\ waiting\ mode\ (move\ slowly\n\ back\ and\ forth).\n
+comment2.params=
+comment2.target=void\ idleMove()
+comment2.text=\n\ Move\ slowly\ back\ and\ forth.\n
+numComments=3

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mover()
+comment1.params=speed
+comment1.target=Mover(Vector)
+comment1.text=\n\ Create\ new\ mover\ initialised\ with\ given\ speed\ vector.\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\n\ Move\ forward\ one\ step.\ Direction\ and\ speed\ are\ dtermined\ by\ the\ \n\ internal\ movement\ vector.\ Movement\ wraps\ around\ at\ the\ world\ edges.\n
+comment3.params=x\ y
+comment3.target=void\ setLocation(double,\ double)
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+comment5.params=s
+comment5.target=void\ increaseSpeed(Vector)
+comment5.text=\n\ Increase\ the\ current\ speed\ with\ the\ given\ vector.\n
+comment6.params=
+comment6.target=Vector\ getMovement()
+comment6.text=\n\ Return\ the\ current\ movement.\n
+numComments=7

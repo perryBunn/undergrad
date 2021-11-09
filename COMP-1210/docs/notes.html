@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="veiwport" content="width, initial-scale=1.0, maximum-scale=1">
+        <meta name="author" content="Perry Bunn">
+        <meta name="description" content="COMP1210 github website based on the markdown files in the repository">
+        <meta name="keywords" content="COMP, 1210, github, perry, bunn, se, auburn">
+        <meta name="content" content="Version 1.0">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="normalize.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <title>COMP 1210</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Source+Code+Pro" rel="stylesheet">
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m) {
+                i['GoogleAnalyticsObject']=r;
+                i[r]=i[r] || function() {
+                    (i[r].q=i[r].q||[]).push(arguments)
+                }, i[r].l=1*new Date();
+                a=s.createElement(o), m=s.getElementsByTagName(o)[0];
+                a.async=1;
+                a.src=g;
+                m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-54421205-3', 'auto');
+            ga('require', 'linkid');
+            ga('send', 'pageview');
+        </script>
+    </head>
+    
+    <!-- TODO change code comment tags from // to /* */ -->
+    
+    <body>
+        <div class="container-fluid content">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-2 nav">
+                    <div class="col-xs-2 col-xs-offset-1 center">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="col-xs-2 center">
+                        <a href="https://github.com/perryBunn/COMP1210">Github</a>
+                    </div>
+                    <div class="col-xs-2 center">
+                        <a href="notes.html">Notes</a>
+                    </div>
+                    <div class="col-xs-2 center">
+                        <a href="examples.html">Projects</a>
+                    </div>
+                </div>
+            </div> <!-- Nav -->
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 center">
+                    <h1>Notes</h1>
+                </div>
+            </div> <!-- Title -->
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Arrays vs ArrayList
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            <h3>Array vs ArrayList</h3>
+                    <p>In Java there are two ways to create an 'array'. Arrays are simple fixed sized arrays.</p>
+                    
+                    <div class="code">
+                        <p>
+                            <span>// Array Example</span><br>
+                            int[] name = new int[size];
+                        </p>
+                    </div>             
+                    <p>ArrayList are dynamic sized arrays that implement list interface.</p>
+                    
+                    <div class="code">
+
+                        <p>
+                            <span>// ArrayList Example</span><br>
+                            ArrayList&lt;Type&gt; name = new ArrayList&lt;Type&gt;();
+                        </p>
+                    </div>
+                    
+                    <p>An Array is a fixed size data structure while ArrayList is not. You dont need to mention the size of an ArrayList when creating its object. Even if you do specify an initial capasity you can always add more to the ArrayList. for example:</p>
+                    
+                    <div class="code">
+                        <p>
+                            <span>// Array</span><br>
+                            int[] arr = new int[3]; <span>// the array size is fixed at 3 objects.</span><br>
+                            arr[0] = 1;<br>
+                            arr[1] = 2;<br>
+                            arr[2] = 3; <span>// we cant add anymore objects to the array without getting a NullPointerExeption</span>
+                            <br>
+                            <span>// ArrayList</span><br>
+                            ArrayList&lt;Integer&gt; arrL = new ArrayList&lt;Integer&gt;();<br>
+                            arrL.add(1);<br>
+                            arrL.add(2);<br>
+                            arrL.add(3);<br>
+                            arrL.add(4);<br>
+                            <span>// we can add as many elements as we want essentially</span>
+                        </p>
+                    </div>
+                    
+                    <p>Arrays can contain both primitive data types aswell as objects of a class. however ArrayList only allows objects, not primitive data types.</p>
+                          </div>
+                        </div>
+                      </div> <!-- Arrays v ArrayList -->
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Loops
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                            <h3>Loops</h3>
+                    <h4>While Loops</h4>
+                    <p>While loops take a boolean expression and while that expression is true it will run the code inside of the body of the while statement.</p>
+                    <div class="code">
+                        <p>
+                            <span>// for example a While loop with a boolean condition</span><br>
+                            int i = 0;<br>
+                            while (i &lt; 10) {<br>
+                            &nbsp; System.out.println(i); <span>// this code would run 10 times before exiting</span><br>
+                            &nbsp; i++; <span>// however the i variable would be checked 11 times</span><br>
+                            }<br>
+                            System.out.println("done!");
+                        </p>
+                    </div>
+                    <p>A While loop is essentially a more complex if statement. the if statement will check if the statement is true and if it is then it will run the body of the if statement. the while loop expands on this by continuing to run the body of the loop until a false condition is met. This can be a problem however if our condition never equates to false, we are then stuck in a infinite loop and the program will never end on its own. in our xample above the while loop check to see if i is less then ten and if it is it will print the value of i. once the value of i has been incremented to 10 the loop breaks and then our program prints "done".</p>
+                    <div class="code">
+                        <p>
+                            <span>// this is an example of a infinite loop</span><br>
+                            int i = 0;<br>
+                            while (i &lt; 1) {<br>
+                            &nbsp; System.out.println(i);<br>
+                            &nbsp; i--;<br>
+                            } <span>// This code will continue to print i forever if we let it, or at least until it crashes</span>
+                        </p>
+                    </div>
+                    <p>Sometimes however we can purposfully write code that loops forever. This code still needs to come to an end to become useful though. this is where the break statement comes in handy. a break statement will end the loop when ever the program reads it. so for example, for what ever reason you would want to do this(normaly we wouldnt want to), say we have a while loop thats initial boolean condition is true. once we realize by mistake or not we say once somethingRidiculous happens we want the loop to end. so we would put an if statement nested inside of our while loop to then call the break command.</p>
+                    <div class="code">
+                        <p>
+                            while (true) {<br>
+                            &nbsp; ...<br>
+                            &nbsp; <span>// some code we want to run</span><br>
+                            &nbsp; ...<br>
+                            &nbsp; if (somethingRidiculous() == true) {<br>
+                            &nbsp; &nbsp; break;<br>
+                            &nbsp; }<br>
+                            }
+                        </p>
+                    </div>
+                    <p>we should try our best to not write loops like this because they can be hard to read or understand, so consider them a last resort case if you boolean condition cant be at the top.</p>
+                    
+                    <h4>For Loops</h4>
+                    <p>A For loop is a variant of a While loop, its tailored to step though a loop for a certain number of times. for example we want to print numbers 1 through 10.</p>
+                    <div class="code">
+                        <p>
+                            for (int i = 0; i &lt; 10; i++) {<br>
+                            &nbsp; System.out.println(i + 1);<br>
+                            }
+                        </p>
+                    </div>
+                    <p>When creating a For loop, you must include 4 parts, the init, test, increment, and the body. the init, test, and increment are separated by semi colons.</p>
+                    <h5>Init</h5>
+                    <p>the Init code runs once to set everything up at the beginning of the loop. the most common init is "int i = 0;" this value only exist in the loop. the widespread use of i for the init variable is almost ubiquitous when writing For loops. its use is so common that other programmers may be confused when reading your code with out it. this also extends to using names like "j" and "k" if i is already declared. Never use lowercase L "l", since it looks just like the digit one "1" in many fonts(like the one im writing this in).</p>
+                    <h5>Test</h5>
+                    <p>The Test is just a boolean evaluation, generally "i &lt; someNumber".</p>
+                    <h5>Body</h5>
+                    <p>If the test returns true then the bosy of the For loop then runs once. the body consist of the code you want to run over multiple times.</p>
+                    <h5>Increment</h5>
+                    <p>the increment runs after the body of the code executes, and then steps to test.</p>
+                          </div>
+                        </div>
+                      </div> <!-- Loops -->
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Arrays
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            Coming soon.
+                          </div>
+                        </div>
+                      </div> <!-- Arrays -->
+                        <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Static Method and Variables
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                          <div class="panel-body">
+                            Coming soon.
+                          </div>
+                        </div>
+                      </div> <!-- Static methods and variabls -->
+                    </div>
+                </div>
+            </div> <!-- Accordion -->
+        </div>
+        <div class="container-fluid">
+            <footer class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="col-xs-12 xs-center col-md-4 paddingT">
+                        <!-- TODO: create google form for github contibutor info -->
+                        <ul>
+                            <lh>Want to get involved?</lh>
+                            <li>
+                                <a href="https://github.com/perryBunn/COMP1210/">Contribute on Github</a>
+                            </li>
+                            <li>
+                                <a href="https://waffle.io/perryBunn/COMP1210">See progress on Waffle</a>
+                            </li>
+                            <li>
+                                <a href="https://goo.gl/forms/lZnz6IINHjwHTdTA3">Get contibuter access for Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 xs-center col-md-4 paddingT">
+                        <ul>
+                            <lh>Need more help?</lh>
+                            <li>
+                                <a href="https://github.com/perryBunn/COMP1210/">Github</a>
+                            </li>
+                            <li>
+                                <a href="ttps://docs.oracle.com/javase/8/docs/api/">Java 8 API</a>
+                            </li>
+                            <li>
+                                <a href="http://codingbat.com/java">CodingBat</a>
+                            </li>
+                            <li>
+                                <a href="http://stackoverflow.com/questions/tagged/java">StackExchange</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 xs-center col-md-4 paddingT">
+                        <ul>
+                            <lh>Auburn recources.</lh>
+                            <li>
+                                <a href="http://eng.auburn.edu/current-students/academic-support/tutoring">Tutoring</a>
+                            </li>
+                            <li>
+                                <a href="https://adviseassist.campus.eab.com/appointments/">Study Partners</a>
+                            </li>
+                            <li>
+                                <a href="disclaimer.html">Disclaimer</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h6 class="col-xs-6 col-xs-offset-3 center" id="copyright">copyright &copy; <a href="http://perrybunn.github.io/">Perry Bunn</a></h6>
+                </div>
+            </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="Bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

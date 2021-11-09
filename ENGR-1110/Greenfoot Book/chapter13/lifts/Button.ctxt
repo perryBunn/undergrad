@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Button()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=direction
+comment2.target=void\ press(int)
+comment3.params=direction
+comment3.target=void\ clear(int)
+comment4.params=direction\ onOff
+comment4.target=void\ change(int,\ boolean)
+comment5.params=
+comment5.target=void\ updateImage()
+numComments=6

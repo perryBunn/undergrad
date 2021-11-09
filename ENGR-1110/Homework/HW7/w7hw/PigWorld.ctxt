@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PigWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PigWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=PigWorld()
+comment1.text=\r\n\ Builds\ a\ PigWorld\ object.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ \ Adds\ mushrooms\ at\ the\ top\ of\ the\ screen\ at\ given\ intervals.\r\n
+numComments=3

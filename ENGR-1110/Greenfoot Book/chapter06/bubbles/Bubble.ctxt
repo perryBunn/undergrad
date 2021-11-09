@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bubble()
+comment0.text=\n\ Create\ a\ Bubble\ that\ floats,\ with\ random\ size\ and\ random\ color.\n
+comment1.params=size
+comment1.target=Bubble(int)
+comment1.text=\n\ Create\ a\ Bubble\ that\ floats,\ with\ a\ given\ size\ and\ random\ color.\n
+comment2.params=size\ direction
+comment2.target=Bubble(int,\ int)
+comment2.text=\n\ Create\ a\ Bubble\ that\ floats,\ with\ given\ size\ and\ initial\ float\ direction.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Float.\n
+numComments=4

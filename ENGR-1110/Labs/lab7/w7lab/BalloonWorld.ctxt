@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BalloonWorld
+comment0.text=\ \r\n\r\n\ A\ world\ of\ balloons.\ Based\ on\ a\ scenario\ created\ by\ Poul\ Henriksen.\r\n\ \r\n\ Balloons\ will\ be\ created\ and\ flow\ from\ the\ bottom\ to\ the\ top\ of\ the\ screen.\r\n\ \r\n
+comment1.params=
+comment1.target=BalloonWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Randomly\ create\ balloons\ at\ the\ bottom\ of\ the\ world\r\n\ on\ approximately\ 3%\ of\ act\ cycles.\r\n
+numComments=3

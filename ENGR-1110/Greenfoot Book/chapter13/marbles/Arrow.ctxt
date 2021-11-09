@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Arrow()
+comment1.params=dx\ dy
+comment1.target=Arrow(int,\ int)
+comment1.text=\n\ Create\ an\ arrow.\ The\ size\ is\ defined\ by\ the\ x/y\ distance\ of\ its\n\ end\ point\ from\ its\ origin.\n
+comment2.params=dx\ dy
+comment2.target=void\ setImage(int,\ int)
+comment2.text=\n\ Change\ the\ arrow.\ The\ new\ size\ and\ direction\ is\ defined\ by\ the\ x/y\ \n\ distance\ of\ its\ end\ point\ from\ its\ origin.\ The\ arrow\ will\ be\ drawn\ from\n\ this\ actors\ position\ (the\ centre\ point)\ to\ the\ specified\ offset.\n
+numComments=3

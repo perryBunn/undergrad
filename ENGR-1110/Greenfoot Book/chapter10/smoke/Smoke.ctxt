@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Smoke()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ In\ every\ step,\ get\ smaller\ until\ we\ disappear.\n
+comment2.params=
+comment2.target=void\ shrink()
+comment2.text=\n\ Make\ the\ image\ of\ this\ actor\ a\ little\ smaller.\ If\ it\ gets\ very\ small,\n\ delete\ the\ actor.\n
+numComments=3

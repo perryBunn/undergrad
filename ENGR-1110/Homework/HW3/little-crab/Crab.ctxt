@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\r\n\ This\ class\ defines\ a\ crab.\ Crabs\ live\ on\ the\ beach.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ turnLeft()
+comment2.text=Turns\ the\ crab\ to\ face\ left\ from\ its\ current\ perspective.
+comment3.params=distance
+comment3.target=void\ backUp(int)
+comment3.text=Moves\ the\ crab\ backwards\ the\ given\ distance.
+numComments=4

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Node()
+comment0.text=\n\ Default\ constructor\ (for\ interactive\ testing)\n
+comment1.params=leftNeighbour\ onSwitch
+comment1.target=Node(Node,\ Switch)
+comment1.text=\n\ Construct\ a\ node,\ creating\ a\ link\ to\ its\ left\ neighbour\ (and\ back)\n
+comment2.params=rightNeighbour
+comment2.target=void\ setRightNeighbour(Node)
+comment2.text=\n\ Specify\ the\ right\ neighbour\ of\ ths\ node.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Adjust\ out\ Y\ position\ according\ to\ the\ movement\ force\ calculated.\n
+comment4.params=damping
+comment4.target=void\ applyForce(double)
+comment4.text=\n\ Calculate\ the\ force\ on\ this\ node,\ by\ taking\ into\ account\ the\ location\ of\ the\ neighbours.\n
+numComments=5

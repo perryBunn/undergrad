@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Fred()
+comment1.params=world
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n
+comment3.params=user
+comment3.target=void\ trackUser(UserData)
+comment3.text=\n\ Display\ a\ tracked\ user\ on\ screen\n
+comment4.params=world
+comment4.target=void\ createBody(greenfoot.World)
+comment5.params=x\ y
+comment5.target=UserData\ setUpPose(float[],\ float[])
+comment5.text=\n\ Initialise\ the\ coordinates\ for\ the\ default\ body\ poses\ (used\ when\ we\ cannot\n\ see\ a\ user).\n
+comment6.params=
+comment6.target=void\ checkHands()
+comment6.text=\n\ Check\ whether\ a\ hand\ (of\ any\ user)\ touches\ the\ radio.\ Play\ radio\ if\ it\ does.\n
+comment7.params=x\ y
+comment7.target=Radio\ getRadio(int,\ int)
+comment7.text=\n\ Check\ whether\ there\ is\ a\ radio\ at\ coordinate\ x,y.\ Return\ the\ radio\ if\ there\n\ is,\ or\ return\ null\ if\ there\ is\ no\ radio.\n
+numComments=8

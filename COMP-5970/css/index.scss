@@ -1,0 +1,97 @@
+$--main-bg-color: khaki;
+body {
+  background-color: $--main-bg-color;
+  padding: 3vw;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+h1.rainbow {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:rgba(0,0,0,0);
+  text-align:center;
+  transition: color .2s ease-in-out;
+  font-weight:900;
+}
+
+.quiz {
+  background-color: beige;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-width: 40%;
+  width: auto;
+  min-height: 10vh;
+  #question {
+    padding: 5%;
+  }
+  hr {
+    border-color: lightsteelblue;
+    border-radius: 4px;
+    max-width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #answerDiv {
+    padding: 5%;
+  }
+}
+
+div#footer {
+  position: absolute;
+  bottom: 1vw;
+  left: 0;
+  height: auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0;
+  h6 {
+    font-family:"Abril Fatface", sans-serif;
+    font-size: 1rem;
+    margin: 0 1vw;
+    float: left;
+    display: inline;
+    font-weight:900;
+  }
+  a, a:visited {
+    font-size: 1rem;
+    float: right;
+    color: black;
+    text-decoration: none;
+    margin: 0 1vw;
+    display: inline;
+  }
+  .rainbow{
+    font-family:"Abril Fatface", sans-serif;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:rgba(0,0,0,1);
+    text-align:center;
+    transition: color .2s ease-in-out;
+    font-weight:900;
+  }
+  .rainbow:hover{
+    color:rgba(0,0,0,0);
+  }
+
+}
+@keyframes rainbow {
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+@media screen and (min-width: 900px){
+  body {
+    font-size: 300%;
+  }
+  .quiz {
+    min-width: 50%;
+  }
+}
+

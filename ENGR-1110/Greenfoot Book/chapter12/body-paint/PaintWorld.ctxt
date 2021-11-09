@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PaintWorld()
+comment0.text=\n\ Create\ our\ paint\ world\ with\ a\ small\ thumbnail\ camera\ image\ in\ the\ bottom\ corner.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\:\ show\ users\ as\ stick\ figures.\n
+comment2.params=
+comment2.target=void\ processUsers()
+comment2.text=\n\ For\ every\ tracked\ user,\ paint\ a\ stick\ figure\ and\ maintain\ a\ canvas.\n
+comment3.params=trackedUsers
+comment3.target=void\ manageCanvases(UserData[])
+comment3.text=\n\ Make\ sure\ canvas\ objects\ match\ tracked\ users\:\ Create\ new\ canvas\ objects\ if\n\ we\ see\ new\ users\ entering\ our\ image,\ and\ remove\ canvas\ objects\ for\ users\ \n\ no\ longer\ there.\n
+comment4.params=trackedUsers
+comment4.target=void\ paintStickFigures(UserData[])
+comment4.text=\n\ Paint\ stick\ figures\ on\ the\ world\ background\ for\ every\ user\ we\ can\ see.\n
+comment5.params=
+comment5.target=void\ eraseBackground()
+comment5.text=\n\ Erase\ the\ world\ backgorund.\n
+numComments=6

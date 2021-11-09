@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Leaf()
+comment0.text=\n\ Create\ the\ leaf.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ around.\n
+comment2.params=
+comment2.target=void\ changeImage()
+comment2.text=\n\ Change\ the\ image\ to\ another\ leaf\ image.\ This\ toggles\ back\ and\n\ forth\ between\ two\ images.\n
+numComments=3

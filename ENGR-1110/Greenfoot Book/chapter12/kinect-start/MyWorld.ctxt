@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyWorld()
+comment0.text=\n\ Constructor\ for\ our\ world.\ Place\ any\ objects\ needed.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ World\ act\ method\:\ Insert\ code\ for\ whatever\ you\ need.\n\ (Don't\ forget\:\ The\ superclass\ act\ method\ must\ be\ called\ in\ all\ Kinect\ scenarios.)\n
+numComments=2

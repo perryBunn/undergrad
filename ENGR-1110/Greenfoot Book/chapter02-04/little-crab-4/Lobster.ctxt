@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lobster
+comment0.text=\n\ A\ lobster.\ Lobsters\ live\ on\ the\ beach.\ They\ like\ to\ eat\ crabs.\ (Well,\ in\ our\ game\n\ they\ do...)\n\ \n\ Version\:\ 2\n\ \n\ The\ lobster\ walks\ around\ randomly.\ If\ it\ runs\ into\ a\ crab\ it\ eats\ it.\n\ In\ this\ version,\ we\ have\ added\ a\ sound\ effect,\ and\ the\ game\ stops\ when\n\ a\ lobster\ eats\ the\ crab.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Do\ whatever\ lobsters\ do.\n
+comment2.params=
+comment2.target=void\ turnAtEdge()
+comment2.text=\n\ Check\ whether\ we\ are\ at\ the\ edge\ of\ the\ world.\ If\ we\ are,\ turn\ a\ bit.\n\ If\ not,\ do\ nothing.\n
+comment3.params=
+comment3.target=void\ randomTurn()
+comment3.text=\n\ Randomly\ decide\ to\ turn\ from\ the\ current\ direction,\ or\ not.\ If\ we\ turn\n\ turn\ a\ bit\ left\ or\ right\ by\ a\ random\ degree.\n
+comment4.params=
+comment4.target=void\ lookForCrab()
+comment4.text=\n\ Try\ to\ pinch\ a\ crab.\ That\ is\:\ check\ whether\ we\ have\ stumbled\ upon\ a\ crab.\n\ If\ we\ have,\ remove\ the\ crab\ from\ the\ game,\ and\ stop\ the\ program\ running.\n
+numComments=5

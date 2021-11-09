@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getExactX()
+comment1.params=
+comment1.target=double\ getExactY()
+comment2.params=x\ y
+comment2.target=void\ setLocation(double,\ double)
+comment2.text=\n\ A\ new\ setLocation\ method\ that\ uses\ rounded\ values\ for\ display\ on\ screen,\ but\n\ maintains\ precision\ values\ for\ further\ movement\ and\ computation.\n
+comment3.params=x\ y
+comment3.target=void\ setLocation(int,\ int)
+comment3.text=\n\ Overriding\ the\ inherited\ setLocation\ method\ so\ that\ we\ store\ the\ location\ locally\n\ before\ using\ it\ to\ set\ the\ location.\n
+numComments=4

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ChalkBoard()
+comment0.text=\n\ Create\ a\ new\ chalk\ board.\n
+comment1.params=
+comment1.target=void\ practice()
+comment1.text=\n\ This\ is\ the\ method\ for\ you\ to\ practice.\ Add\ your\ code\ here.\n
+comment2.params=number
+comment2.target=void\ write(int)
+comment2.text=\n\ Write\ a\ number\ onto\ the\ board.\n
+comment3.params=character
+comment3.target=void\ write(char)
+comment3.text=\n\ Write\ a\ character\ onto\ the\ board.\n
+comment4.params=text
+comment4.target=void\ write(java.lang.String)
+comment4.text=\n\ Write\ some\ text\ onto\ the\ board.\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=\n\ Wipe\ the\ board.\n
+numComments=6

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ A\ bullet\ that\ can\ hit\ asteroids.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n\ \r\n\ @version\ 2.0\r\n
+comment1.params=
+comment1.target=Bullet()
+comment2.params=speed\ rotation
+comment2.target=Bullet(Vector,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ The\ bullet\ will\ damage\ asteroids\ if\ it\ hits\ them.\r\n
+numComments=4

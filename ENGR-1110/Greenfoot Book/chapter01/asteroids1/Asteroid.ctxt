@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Asteroid()
+comment0.text=\n\ Create\ an\ asteroid\ with\ default\ size\ and\ speed.\n
+comment1.params=size
+comment1.target=Asteroid(int)
+comment1.text=\n\ Create\ an\ asteroid\ with\ a\ given\ size,\ random\ movement\ direction\ and\ \n\ default\ speed.\n
+comment2.params=size\ speed
+comment2.target=Asteroid(int,\ Vector)
+comment2.text=\n\ Create\ an\ asteroid\ with\ a\ given\ size\ size,\ direction,\ and\ speed.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Let\ the\ asteroid\ act.\ That\ is\:\ fly\ around.\n
+comment4.params=size
+comment4.target=void\ setSize(int)
+comment4.text=\n\ Set\ the\ size\ of\ this\ asteroid.\ Note\ that\ stability\ is\ directly\n\ related\ to\ size.\ Smaller\ asteroids\ are\ less\ stable.\n
+comment5.params=
+comment5.target=int\ getStability()
+comment5.text=\n\ Return\ the\ current\ stability\ of\ this\ asteroid.\ (If\ it\ goes\ down\ to\ \n\ zero,\ it\ breaks\ up.)\n
+comment6.params=damage
+comment6.target=void\ hit(int)
+comment6.text=\n\ Hit\ this\ asteroid\ dealing\ the\ given\ amount\ of\ damage.\n
+comment7.params=
+comment7.target=void\ breakUp()
+comment7.text=\n\ Break\ up\ this\ asteroid\ into\ two\ smaller\ asteroids\ (or,\ if\ it\ is\ \n\ already\ very\ small,\ just\ disappear).\n
+numComments=8

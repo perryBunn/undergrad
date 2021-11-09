@@ -1,0 +1,321 @@
+/* Fonts used. */
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
+/* TODO 
+    create resposive fonts for mobile and latge desktops.
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000;
+    overflow-x: hidden;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+.nav {
+    padding-top: 1vh;
+}
+
+.code {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    font-size: .9em;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+.code p {
+    text-indent: 0px;
+    padding-left: .5vw;
+    padding-right: .5vw;
+}
+
+span {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.code p span {
+    color: #e54848;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+a {
+    color: #696969;
+}
+
+a:hover {
+    color: #e54848;
+}
+
+.imageSize {
+    max-width: 25vh;
+}
+
+.codingbat {
+    background-color: lightgray;
+    color: lightgray;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    border-color: #000;
+}
+
+h4 {
+    display: inline;
+}
+
+.noIndent {
+    text-indent: 0px;
+}
+
+.alert-warning {
+    padding: .5em;
+    margin-bottom: 0;   
+}
+
+footer {
+    background-color: lightgray;
+    color: #575757;
+    padding-top: 1vh;
+}
+
+#footer h6 {
+    padding: 0;
+    margin-top: 0;
+}
+
+#footer lh {
+    font-size: 1.096vw;
+}
+
+#disclaimer {
+    font-size: 1.5vw;
+}
+
+.content {
+    min-height: 100vh;
+}
+
+/* XS */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 10vw;
+    }
+    .content {
+        padding-bottom: 5vh;
+        margin-left: auto;
+    }
+    .nav {
+        font-size: 5vw;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    h5 {
+        font-size: 3.75vw;
+    }
+    h6 {
+        font-size: 3vw;
+    }
+    .xs-center {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    .paddingT {
+        padding-top: 3vh;
+    }
+    ul {
+        list-style: none;
+    }
+    lh {
+        font-size: 6vw;
+    }
+    li {
+        font-size: 5vw;
+    }
+}
+
+/* SM */
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 5.5vw;
+    }
+    .content {
+        padding-bottom: 5vh;
+        margin-left: auto;
+    }
+    .nav {
+        font-size: 4.5vw;
+    }
+    a {
+        font-size: 4.5vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    h4 {
+        font-size: 6vw;
+    }
+    h5 {
+        font-size: 6vw;
+    }
+    h6 {
+        font-size: 4vw;
+    }
+    .paddingT {
+        padding-top: 3vh;
+    }
+    .xs-center {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    ul {
+        list-style: none;
+    }
+    lh {
+        font-size: 6vw;
+        color: black;
+    }
+    li {
+        font-size: 5vw;
+    }
+}
+
+/* MD */
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 1.6vw;
+    }
+    .content {
+        padding-bottom: 5vh;
+        margin-left: auto;
+    }
+    .nav {
+        font-size: 3vw;
+    }
+    .nav a {
+        font-size: 3vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 2vw;
+    }
+    h4 {
+        font-size: 2vw;
+    }
+    h5 {
+        font-size: 2vw;
+    }
+    h6 {
+        font-size: 2vw;
+    }
+    .paddingT {
+        padding-top: 3vh;
+    }
+    .xs-center {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    ul {
+        list-style: none;
+    }
+    lh {
+        font-size: 2vw;
+        color: black;
+    }
+    li {
+        font-size: 2vw;
+    }
+}
+
+/* LG */
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 1.2vw;
+    }
+    .content {
+        padding-bottom: 5vh;
+        margin-left: auto;
+    }
+    .nav {
+        font-size: 3vw;
+    }
+    .nav a {
+        font-size: 2vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 2vw;
+    }
+    h4 {
+        font-size: 2vw;
+    }
+    h5 {
+        font-size: 2vw;
+    }
+    h6 {
+        font-size: 2vw;
+    }
+    .paddingT {
+        padding-top: 3vh;
+    }
+    .xs-center {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-left: auto;
+    }
+    ul {
+        list-style: none;
+    }
+    lh {
+        font-size: 2vw;
+        color: black;
+    }
+    li {
+        font-size: 2vw;
+    }
+}

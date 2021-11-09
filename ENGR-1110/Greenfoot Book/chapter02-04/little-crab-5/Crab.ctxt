@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Crab()
+comment0.text=\n\ Create\ a\ crab\ and\ initialize\ its\ two\ images.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\ \n\ Act\ -\ do\ whatever\ the\ crab\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ \ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ switchImage()
+comment2.text=\n\ Alternate\ the\ crab's\ image\ between\ image1\ and\ image2.\n
+comment3.params=
+comment3.target=void\ checkKeypress()
+comment3.text=\n\ Check\ whether\ a\ control\ key\ on\ the\ keyboard\ has\ been\ pressed.\n\ If\ it\ has,\ react\ accordingly.\n
+comment4.params=
+comment4.target=void\ lookForWorm()
+comment4.text=\n\ Check\ whether\ we\ have\ stumbled\ upon\ a\ worm.\n\ If\ we\ have,\ eat\ it.\ If\ not,\ do\ nothing.\ If\ we\ have\n\ eaten\ eight\ worms,\ we\ win.\n
+numComments=5

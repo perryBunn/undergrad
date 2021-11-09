@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Get\ the\ combined\ user\ image\ from\ the\ Kinect,\ and\ use\ it\ as\ our\ own\ actor\ image.\n\ The\ size\ of\ the\ image\ is\ the\ same\ as\ the\ world\ (so\ covers\ the\ whole\ background)\n\ but\ background\ (non-user)\ pixels\ are\ transparent.\n
+numComments=1

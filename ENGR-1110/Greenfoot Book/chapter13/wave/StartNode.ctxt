@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=amp\ freq\ osc\ onSwitch
+comment0.target=StartNode(Slider,\ Slider,\ Switch,\ Switch)
+comment1.params=w
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ doOscillate()
+comment4.params=
+comment4.target=void\ doDrag()
+numComments=5

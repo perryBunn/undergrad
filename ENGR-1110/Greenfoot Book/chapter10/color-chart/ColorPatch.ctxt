@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=r\ g\ b
+comment0.target=ColorPatch(int,\ int,\ int)
+comment0.text=\n\ Create\ a\ color\ patch\ with\ given\ RGB\ value.\n
+numComments=1

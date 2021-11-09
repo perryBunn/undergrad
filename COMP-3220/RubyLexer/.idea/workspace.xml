@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cedea39c-b6e2-4356-8ecf-409b5489eb40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XoJE6Clm4RkwN1Hk0snurEP3wY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestTinyLexer.rb" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="RubyRunConfigurationType" factoryName="Ruby" nameIsGenerated="true">
+      <module name="RubyLexer" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/TestTinyLexer.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cedea39c-b6e2-4356-8ecf-409b5489eb40" name="Default Changelist" comment="" />
+      <created>1581706400048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581706400048</updated>
+      <workItem from="1581706403732" duration="897000" />
+      <workItem from="1581707337384" duration="84000" />
+      <workItem from="1581707709441" duration="631000" />
+      <workItem from="1581708410155" duration="17000" />
+      <workItem from="1581969252299" duration="1033000" />
+      <workItem from="1582142170415" duration="3249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="181" y="117" width="1076" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581706636322">
+      <screen x="70" y="27" width="1298" height="885" />
+    </state>
+    <state x="181" y="117" width="1076" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1298.885@70.27.1298.885" timestamp="1581706636322" />
+    <state x="378" y="270" width="607" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581970037664">
+      <screen x="0" y="27" width="1368" height="885" />
+    </state>
+    <state x="378" y="270" width="607" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1368.885@0.27.1368.885" timestamp="1581970037664" />
+    <state x="195" y="228" width="424" height="497" key="FileChooserDialogImpl" timestamp="1581706633224">
+      <screen x="70" y="27" width="1298" height="885" />
+    </state>
+    <state x="195" y="228" width="424" height="497" key="FileChooserDialogImpl/70.27.1298.885@70.27.1298.885" timestamp="1581706633224" />
+    <state width="638" height="304" key="GridCell.Tab.0.bottom" timestamp="1582145420026">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="1302" height="205" key="GridCell.Tab.0.bottom/0.27.1368.885@0.27.1368.885" timestamp="1581970198622" />
+    <state width="638" height="304" key="GridCell.Tab.0.bottom/0.30.1368.882@0.30.1368.882" timestamp="1582145420026" />
+    <state width="616" height="205" key="GridCell.Tab.0.bottom/70.27.1298.885@70.27.1298.885" timestamp="1581707300850" />
+    <state width="638" height="304" key="GridCell.Tab.0.center" timestamp="1582145420025">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="1302" height="205" key="GridCell.Tab.0.center/0.27.1368.885@0.27.1368.885" timestamp="1581970198621" />
+    <state width="638" height="304" key="GridCell.Tab.0.center/0.30.1368.882@0.30.1368.882" timestamp="1582145420025" />
+    <state width="616" height="205" key="GridCell.Tab.0.center/70.27.1298.885@70.27.1298.885" timestamp="1581707300850" />
+    <state width="638" height="304" key="GridCell.Tab.0.left" timestamp="1582145420024">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="1302" height="205" key="GridCell.Tab.0.left/0.27.1368.885@0.27.1368.885" timestamp="1581970198621" />
+    <state width="638" height="304" key="GridCell.Tab.0.left/0.30.1368.882@0.30.1368.882" timestamp="1582145420024" />
+    <state width="616" height="205" key="GridCell.Tab.0.left/70.27.1298.885@70.27.1298.885" timestamp="1581707300849" />
+    <state width="638" height="304" key="GridCell.Tab.0.right" timestamp="1582145420025">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="1302" height="205" key="GridCell.Tab.0.right/0.27.1368.885@0.27.1368.885" timestamp="1581970198622" />
+    <state width="638" height="304" key="GridCell.Tab.0.right/0.30.1368.882@0.30.1368.882" timestamp="1582145420025" />
+    <state width="616" height="205" key="GridCell.Tab.0.right/70.27.1298.885@70.27.1298.885" timestamp="1581707300850" />
+    <state width="638" height="304" key="GridCell.Tab.1.bottom" timestamp="1582145420031">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="651" height="254" key="GridCell.Tab.1.bottom/0.27.1368.885@0.27.1368.885" timestamp="1581970179109" />
+    <state width="638" height="304" key="GridCell.Tab.1.bottom/0.30.1368.882@0.30.1368.882" timestamp="1582145420031" />
+    <state width="638" height="304" key="GridCell.Tab.1.center" timestamp="1582145420028">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="651" height="254" key="GridCell.Tab.1.center/0.27.1368.885@0.27.1368.885" timestamp="1581970179108" />
+    <state width="638" height="304" key="GridCell.Tab.1.center/0.30.1368.882@0.30.1368.882" timestamp="1582145420028" />
+    <state width="638" height="304" key="GridCell.Tab.1.left" timestamp="1582145420027">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="651" height="254" key="GridCell.Tab.1.left/0.27.1368.885@0.27.1368.885" timestamp="1581970179107" />
+    <state width="638" height="304" key="GridCell.Tab.1.left/0.30.1368.882@0.30.1368.882" timestamp="1582145420027" />
+    <state width="638" height="304" key="GridCell.Tab.1.right" timestamp="1582145420029">
+      <screen x="0" y="30" width="1368" height="882" />
+    </state>
+    <state width="651" height="254" key="GridCell.Tab.1.right/0.27.1368.885@0.27.1368.885" timestamp="1581970179108" />
+    <state width="638" height="304" key="GridCell.Tab.1.right/0.30.1368.882@0.30.1368.882" timestamp="1582145420029" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/TinyScanner.rb</url>
+          <line>82</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RubyLexer@Unnamed.rcov" NAME="Unnamed Coverage Results" MODIFIED="1582145005243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyLexer" />
+  </component>
+</project>

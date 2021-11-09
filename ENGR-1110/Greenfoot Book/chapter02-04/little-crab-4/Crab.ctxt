@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\n\ This\ class\ defines\ a\ crab.\ Crabs\ live\ on\ the\ beach.\ They\ like\ sand\ worms\ \n\ (very\ yummy,\ especially\ the\ green\ ones).\n\ \n\ Version\:\ 4\n\ \n\ The\ crab\ is\ keyboard\ controlled\ and\ eats\ worms.\ In\ this\ version,\ we\ have\ added\n\ a\ sound\ when\ the\ crab\ eats\ a\ worm.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\ \n\ Act\ -\ do\ whatever\ the\ crab\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ \ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ checkKeypress()
+comment2.text=\n\ Check\ whether\ a\ control\ key\ on\ the\ keyboard\ has\ been\ pressed.\n\ If\ it\ has,\ react\ accordingly.\n
+comment3.params=
+comment3.target=void\ lookForWorm()
+comment3.text=\n\ Check\ whether\ we\ have\ stumbled\ upon\ a\ worm.\n\ If\ we\ have,\ eat\ it.\ If\ not,\ do\ nothing.\n
+numComments=4

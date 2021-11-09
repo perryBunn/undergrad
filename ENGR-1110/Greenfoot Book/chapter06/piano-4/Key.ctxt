@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=keyName\ soundFile
+comment0.target=Key(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Create\ a\ new\ key\ linked\ to\ a\ given\ keyboard\ key,\ and\n\ with\ a\ given\ sound.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Do\ the\ action\ for\ this\ key.\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\n\ Play\ the\ note\ of\ this\ key.\n
+numComments=3

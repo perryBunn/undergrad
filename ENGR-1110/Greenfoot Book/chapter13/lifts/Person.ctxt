@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Person()
+comment1.params=floor\ building
+comment1.target=Person(Floor,\ Building)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=boolean\ goingUp()
+comment3.text=\n\ Return\ whether\ or\ not\ we\ want\ to\ go\ up\ (otherwiese\ we\ want\ to\ go\ down).\n
+comment4.params=currentFloor\ building
+comment4.target=int\ pickRandomFloor(int,\ Building)
+comment4.text=\n\ Choose\ a\ random\ floor\ number\ (but\ not\ the\ one\ we\ are\ currently\ on).\n
+numComments=5

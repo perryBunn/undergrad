@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sky()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Sky.\n\ \n
+comment1.params=number
+comment1.target=void\ populateBoids(int)
+comment2.params=number
+comment2.target=void\ populateTrees(int)
+numComments=3

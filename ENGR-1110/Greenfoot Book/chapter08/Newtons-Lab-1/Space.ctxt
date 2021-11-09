@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Space()
+comment0.text=\n\ Create\ space.\n
+comment1.params=
+comment1.target=void\ sunAndPlanet()
+comment1.text=\n\ Set\ up\ the\ universe\ with\ a\ sun\ and\ a\ planet.\n
+comment2.params=
+comment2.target=void\ sunAndTwoPlanets()
+comment2.text=\n\ Set\ up\ the\ universe\ with\ a\ sun\ and\ two\ planets.\n
+comment3.params=
+comment3.target=void\ sunPlanetMoon()
+comment3.text=\n\ Set\ up\ the\ universe\ with\ a\ sun,\ a\ planet,\ and\ a\ moon.\n
+comment4.params=
+comment4.target=void\ removeAllObjects()
+comment4.text=\n\ Remove\ all\ objects\ currently\ in\ the\ world.\n
+numComments=5

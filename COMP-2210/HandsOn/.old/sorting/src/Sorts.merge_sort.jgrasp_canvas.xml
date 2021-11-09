@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="1">
+    <Name>msort</Name>
+    <Signature>([Ljava/lang/Comparable;II)V</Signature>
+    <DeclaringType>Sorts</DeclaringType>
+    <Depth>5</Depth>
+  </Scope>
+  <Scope id="0">
+    <Name>mergeSort</Name>
+    <Signature>([Ljava/lang/Comparable;)V</Signature>
+    <DeclaringType>Sorts</DeclaringType>
+    <Depth>1</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>80</X>
+      <Y>300</Y>
+      <W>634</W>
+      <H>133</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.Comparable[]` a</Expression>
+      <Indices>k#lo#hi</Indices>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <ViewData>
+          <Embedded>true</Embedded>
+        </ViewData>
+      </ViewerData>
+    </Viewer>
+    <ScopeTest>None</ScopeTest>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>60</X>
+      <Y>170</Y>
+      <W>649</W>
+      <H>119</H>
+    </Bounds>
+    <PanelSize>
+      <Key>java__lang__Object_BarGraphView0</Key>
+      <Order>4</Order>
+      <W>655</W>
+      <H>148</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local java.lang.Comparable[]` a</Expression>
+      <ViewerClass>java__lang__Object_BarGraphView</ViewerClass>
+    </Viewer>
+    <ScopeTest>None</ScopeTest>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>80</X>
+      <Y>470</Y>
+      <W>634</W>
+      <H>125</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>this.aux</Expression>
+      <Indices>i#j#lo#hi#mid</Indices>
+      <ViewerClass>_X_A_PresentationView</ViewerClass>
+      <ViewerData>
+        <Embedded>true</Embedded>
+      </ViewerData>
+    </Viewer>
+    <ScopeTest>None</ScopeTest>
+  </Frame>
+  <TextBox>
+    <Text>&lt;html&gt;&lt;h1&gt;Merge Sort&lt;/h1&gt;&lt;/html&gt;</Text>
+    <Position>
+      <X>294</X>
+      <Y>8</Y>
+    </Position>
+    <Transparent>true</Transparent>
+  </TextBox>
+  <Size>
+    <W>793</W>
+    <H>845</H>
+  </Size>
+  <ESize>
+    <W>793</W>
+    <H>845</H>
+  </ESize>
+  <Excl>*#&lt;clinit&gt;
+*#&lt;init&gt;
+Sorts#&lt;clinit&gt;()V
+Sorts#&lt;init&gt;
+Sorts#&lt;init&gt;()V
+Sorts#insertionSort([Ljava/lang/Comparable;)V
+Sorts#isSorted([Ljava/lang/Comparable;)Z
+Sorts#less
+Sorts#less(Ljava/lang/Comparable;Ljava/lang/Comparable;)Z
+-Sorts#merge([Ljava/lang/Comparable;III)V
+Sorts#merge([Ljava/lang/Comparable;IIILjava/util/Comparator;)V
+-Sorts#mergesort([Ljava/lang/Comparable;)V
+Sorts#mergesort([Ljava/lang/Comparable;Ljava/util/Comparator;)V
+-Sorts#msort([Ljava/lang/Comparable;II)V
+Sorts#msort([Ljava/lang/Comparable;IILjava/util/Comparator;)V
+Sorts#partition([Ljava/lang/Comparable;II)I
+Sorts#partition([Ljava/lang/Comparable;IILjava/util/Comparator;)I
+Sorts#partitionOnPivot([Ljava/lang/Comparable;III)I
+Sorts#quick([Ljava/lang/Comparable;II)V
+Sorts#quick([Ljava/lang/Comparable;IILjava/util/Comparator;)V
+Sorts#quicksort([Ljava/lang/Comparable;)V
+Sorts#quicksort([Ljava/lang/Comparable;Ljava/util/Comparator;)V
+Sorts#quicksort_wc([Ljava/lang/Comparable;)V
+Sorts#selectionSort([Ljava/lang/Comparable;)V
+Sorts#shuffle([Ljava/lang/Comparable;)V
+Sorts#swap
+Sorts#swap([Ljava/lang/Comparable;II)V</Excl>
+</Canvas>

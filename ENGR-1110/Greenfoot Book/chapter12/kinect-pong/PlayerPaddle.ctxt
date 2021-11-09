@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=user\ hand
+comment0.target=PlayerPaddle(UserData,\ int)
+comment0.text=\n\ Create\ a\ player\ paddle.\n\ The\ parameters\ are\ the\ user\ data\ of\ the\ controlling\ user,\ \n\ and\ a\ constant\ specifying\ which\ hand\ to\ track.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Place\ the\ paddle\ at\ the\ x-location\ of\ the\ hand\ of\ the\ user.\n
+numComments=2

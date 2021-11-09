@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Move\ in\ the\ direction\ we\ are\ currently\ moving\ in.\ Turn\ if\ we\ reach\ a\ turning\ point.\n
+comment1.params=
+comment1.target=boolean\ atTurningPoint()
+comment1.text=\n\ Test\ if\ we\ are\ at\ one\ of\ the\ turning\ points.\n
+numComments=2

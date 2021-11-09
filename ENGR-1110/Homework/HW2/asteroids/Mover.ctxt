@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\r\n\ A\ thing\ that\ can\ move\ around\ with\ a\ certain\ speed.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n
+comment1.params=
+comment1.target=Mover()
+comment2.params=speed
+comment2.target=Mover(Vector)
+comment2.text=\r\n\ Create\ new\ thing\ initialised\ with\ given\ speed.\r\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\r\n\ Move\ forward\ one\ step.\r\n
+comment4.params=x\ y
+comment4.target=void\ setLocation(double,\ double)
+comment5.params=x\ y
+comment5.target=void\ setLocation(int,\ int)
+comment6.params=s
+comment6.target=void\ increaseSpeed(Vector)
+comment6.text=\r\n\ Increase\ the\ speed\ with\ the\ given\ vector.\r\n
+comment7.params=
+comment7.target=Vector\ getMovement()
+comment7.text=\r\n\ Return\ the\ current\ movement.\r\n
+numComments=8

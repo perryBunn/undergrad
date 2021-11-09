@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act.\ Move\ if\ we're\ not\ stuck.\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Move\ the\ ball.\ Then\ check\ what\ we've\ hit.\n
+comment2.params=
+comment2.target=void\ checkWalls()
+comment2.text=\n\ Check\ whether\ we've\ hit\ one\ of\ the\ three\ walls.\ Reverse\ direction\ if\ necessary.\n
+comment3.params=
+comment3.target=void\ checkOut()
+comment3.text=\n\ Check\ whether\ we're\ out\ (bottom\ of\ screen).\n
+comment4.params=
+comment4.target=void\ checkPaddle()
+comment5.params=dist
+comment5.target=void\ move(int)
+comment5.text=\n\ Move\ the\ ball\ a\ given\ distance\ sideways.\n
+comment6.params=
+comment6.target=void\ makeSmoke()
+comment6.text=\n\ Put\ out\ a\ puff\ of\ smoke\ (only\ on\ every\ second\ call).\n
+comment7.params=
+comment7.target=void\ release()
+comment7.text=\n\ Release\ the\ ball\ from\ the\ paddle.\n
+numComments=8

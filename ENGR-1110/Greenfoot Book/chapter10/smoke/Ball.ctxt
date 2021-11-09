@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ball()
+comment0.text=\n\ Create\ a\ ball\ with\ random\ movement.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act.\ Move\ and\ produce\ smoke.\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\n\ Move\ the\ ball.\ Then\ check\ whether\ we've\ hit\ a\ wall.\n
+comment3.params=
+comment3.target=void\ checkWalls()
+comment3.text=\n\ Check\ whether\ we've\ hit\ one\ of\ the\ walls.\ Reverse\ direction\ if\ necessary.\n
+comment4.params=
+comment4.target=void\ makeSmoke()
+comment4.text=\n\ Put\ out\ a\ puff\ of\ smoke\ (only\ on\ every\ third\ call).\n
+numComments=5

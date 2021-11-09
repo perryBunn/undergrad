@@ -1,0 +1,2 @@
+There were 0 parse errors found.
+( program program ( equalop = id rubyrdog int 1 ) ( equalop = id x ( divop / int 4 ( addop + int 3 int 2 ) ) ) ( equalop = id y ( divop / ( addop + int 3 id x ) id dog ) ) ( print print ( addop + id y id x ) ) )

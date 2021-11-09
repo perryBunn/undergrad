@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=home
+comment0.target=Ant(AntHill)
+comment0.text=\n\ Create\ an\ ant\ with\ a\ given\ home\ hill.\ The\ initial\ speed\ is\ zero\ (not\ moving).\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Do\ what\ an\ ant's\ gotta\ do.\n
+numComments=2

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Greep()
+comment0.text=\n\ Constructor\ for\ Greep\ -\ nothing\ to\ do.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Move\ and\ follow\ the\ path.\ This\ is\ done\ by\ looking\ at\ the\ colour\ of\ the\ ground\n\ at\ the\ position\ of\ the\ eyes.\ If\ the\ ground\ is\ not\ brown,\ turn\ a\ bit\ sideways.\n
+comment2.params=
+comment2.target=java.awt.Color\ leftEyeColor()
+comment2.text=\n\ Return\ the\ color\ under\ the\ left\ eye.\n
+comment3.params=
+comment3.target=java.awt.Color\ rightEyeColor()
+comment3.text=\n\ Return\ the\ color\ under\ the\ right\ eye.\n
+comment4.params=col
+comment4.target=boolean\ isPath(java.awt.Color)
+comment4.text=\n\ Return\ true\ if\ the\ given\ colour\ is\ recognised\ as\ the\ path\ to\ follow.\n
+comment5.params=
+comment5.target=Point\ leftEye()
+comment5.text=\n\ Return\ the\ position\ of\ the\ left\ eye.\n
+comment6.params=
+comment6.target=Point\ rightEye()
+comment6.text=\n\ Return\ the\ position\ of\ the\ right\ eye.\n
+comment7.params=angle\ distance
+comment7.target=Point\ eyePosition(int,\ int)
+comment7.text=\n\ Return\ the\ position\ of\ an\ eye.\ The\ parameters\ define\ the\ eye's\ location\n\ on\ the\ greep's\ body.\n\ \n\ @param\ angle\ The\ angle\ of\ the\ vector\ to\ the\ eye\ from\ the\ current\ rotation.\n\ @param\ distance\ The\ distance\ of\ the\ eye\ from\ our\ centre\ point.\n\ @return\ The\ Point\ (in\ global\ coordinates)\ where\ the\ eye\ is.\n
+numComments=8

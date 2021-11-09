@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pheromone()
+comment0.text=\n\ Create\ a\ new\ drop\ of\ pheromone\ with\ full\ intensity.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ The\ pheromone\ decreases\ the\ intensity.\ When\ the\ intensity\ reaches\ zero,\ it\ disappears.\n
+comment2.params=
+comment2.target=void\ updateImage()
+comment2.text=\n\ Make\ the\ image.\ The\ size\ and\ transparency\ are\ proportional\ to\ the\ intensity.\n
+numComments=3

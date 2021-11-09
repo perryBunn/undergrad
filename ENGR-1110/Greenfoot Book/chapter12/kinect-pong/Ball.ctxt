@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ball()
+comment0.text=\n\ Create\ a\ bouncing\ ball.\n
+comment1.params=world
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment1.text=\n\ When\ this\ ball\ is\ added\ to\ the\ world,\ show\ the\ initial\ scores.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Move\ and\ bounce.\n
+comment3.params=
+comment3.target=void\ checkWalls()
+comment3.text=\n\ Check\ whether\ we've\ hit\ one\ of\ the\ walls.\ Reverse\ direction\ if\ necessary.\n
+comment4.params=
+comment4.target=void\ checkPaddle()
+comment4.text=\n\ Reverse\ vertical\ direction\ if\ we\ hit\ a\ paddle.\n
+comment5.params=
+comment5.target=void\ checkOut()
+comment5.text=\n\ Check\ whether\ the\ ball\ is\ out\ of\ play\ (top\ or\ bottom\ of\ screen).\n
+comment6.params=
+comment6.target=void\ showScores()
+comment6.text=\n\ Show\ the\ current\ scores\ on\ screen.\n
+numComments=7

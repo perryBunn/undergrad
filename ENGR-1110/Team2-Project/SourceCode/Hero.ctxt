@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hero
+comment1.params=
+comment1.target=Hero()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\r\n\ Check\ whether\ we\ are\ colliding\ with\ an\ asteroid.\r\n
+comment4.params=
+comment4.target=void\ checkKeys()
+comment4.text=\r\n\ Check\ whether\ there\ are\ any\ key\ pressed\ and\ react\ to\ them.\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ A\ button\ that\ moves\ randomly\ around\ the\ World.\r\n\ \r\n\ @author\ \ Dean\ Hendrix\ (dh@auburn.edu)\r\n\ @author\ \ YOUR\ NAME\r\n\ @version\ 2016-02-05\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Changes\ the\ location\ of\ this\ button\ approximately\r\n\ 2%\ of\ the\ time.\r\n
+comment2.params=
+comment2.target=void\ changeLocation()
+comment2.text=\r\n\ Sets\ the\ location\ of\ this\ Button\ object\ to\ a\ new\ (x,\ y)\ \r\n\ coordinate\ selected\ at\ random.\ The\ x\ coordinate\ wil\ be\ in\ \r\n\ the\ range\ 100\ to\ 500\ inclusive,\ and\ the\ y\ coordinate\ will\ \r\n\ be\ the\ range\ 100\ to\ 300\ inclusive.\r\n
+numComments=3

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.Random\ getRandomizer()
+comment1.params=percent
+comment1.target=boolean\ chance(int)
+comment2.params=
+comment2.target=Building()
+comment2.text=\n\ Create\ a\ building\ with\ default\ number\ of\ lifts\ and\ stories\n
+comment3.params=stories\ lifts
+comment3.target=Building(int,\ int)
+comment3.text=\n\ Create\ a\ building\ with\ specified\ number\ of\ lifts\ and\ stories\n
+comment4.params=numberOfFloors
+comment4.target=void\ createFloors(int)
+comment4.text=\n\ Create\ all\ the\ floors\ in\ the\ building.\n
+comment5.params=numberOfLifts\ numberOfFloors
+comment5.target=void\ createLifts(int,\ int)
+comment5.text=\n\ Create\ all\ the\ lifts\ in\ the\ building.\n
+comment6.params=y
+comment6.target=Floor\ getFloorAt(int)
+comment6.text=\n\ Return\ the\ floor\ at\ a\ given\ screen\ cell\ y-coordinate.\n\ If\ this\ cell\ is\ not\ the\ exact\ height\ of\ an\ existing\ floor,\ return\ null.\n
+comment7.params=
+comment7.target=int\ getTopFloor()
+comment7.text=\n\ Return\ the\ top\ floor\ number.\n
+comment8.params=
+comment8.target=int\ getRandomFloor()
+comment8.text=\n\ Return\ a\ random\ floor\ number.\n
+numComments=9

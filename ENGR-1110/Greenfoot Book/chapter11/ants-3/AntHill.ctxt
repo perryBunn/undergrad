@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AntHill()
+comment0.text=\n\ Constructor\ for\ ant\ hill\ with\ default\ number\ of\ ants\ (40).\n
+comment1.params=numberOfAnts
+comment1.target=AntHill(int)
+comment1.text=\n\ Construct\ an\ ant\ hill\ with\ a\ given\ number\ of\ ants.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\:\ If\ there\ are\ still\ ants\ left\ inside,\ see\ whether\ one\ should\ come\ out.\n
+comment3.params=
+comment3.target=void\ countFood()
+comment3.text=\n\ Record\ that\ we\ have\ collected\ another\ bit\ of\ food.\n
+numComments=4

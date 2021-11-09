@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=soundFile
+comment0.target=Obstacle(java.lang.String)
+comment0.text=\n\ Create\ an\ obstacle\ with\ an\ associated\ sound\ file.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Each\ act\ cycle,\ check\ whether\ we\ were\ hit.\ If\ we\ were,\ play\ our\ sound.\n
+comment2.params=
+comment2.target=void\ playSound()
+numComments=3

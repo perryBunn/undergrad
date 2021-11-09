@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=width\ height\ user
+comment0.target=Canvas(int,\ int,\ UserData)
+comment0.text=\n\ Create\ a\ new\ canvas\ with\ a\ fully\ transparent\ image,\ initialized\ to\ a\ random\ paint\ color,\n\ for\ the\ given\ user.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Interpret\ the\ user's\ gestures\ and\ do\ the\ appropriate\ action.\n
+comment2.params=
+comment2.target=java.awt.Color\ randomColor()
+comment2.text=\n\ Select\ a\ random\ color\ from\ the\ color\ array\ provided.\n
+numComments=3

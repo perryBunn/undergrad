@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Barrel
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Barrel\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=world
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment1.text=\r\n\ Automatically\ called\ by\ Greenfoot\ whenever\ a\ Barrel\ object\r\n\ is\ placed\ in\ a\ world.\ In\ this\ assigment,\ we\ use\ it\ to\ remember\r\n\ the\ initial\ state\ of\ this\ barrel\ -\ its\ (x,y)\ position\ and\ its\r\n\ original\ image\ size.\r\n
+comment2.params=
+comment2.target=int\ getMushrooms()
+comment2.text=\r\n\ Returns\ how\ many\ mushrooms\ this\ barrel\ has\ stored.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Follows\ mouse\ drag-and-drop\ motion.\ Eats\ nearby\ mushrooms\ when\r\n\ dropped\ and\ increases\ its\ current\ image\ scale\ by\ 25%.\ If\ this\ barrel\r\n\ stores\ more\ than\ 10\ mushrooms,\ this\ barrel\ has\ itself\ removed\ from\r\n\ this\ world.\r\n
+comment4.params=
+comment4.target=void\ reset()
+comment4.text=\r\n\ Returns\ this\ barrel\ to\ its\ original\ (x,y)\ location\ and\ its\r\n\ original\ image\ scale.\r\n
+numComments=5

@@ -1,0 +1,5 @@
+###### Requirements with Version Specifiers ######
+numpy == 1.19.3
+
+###### Requirements without Version Specifiers ######
+matplotlib

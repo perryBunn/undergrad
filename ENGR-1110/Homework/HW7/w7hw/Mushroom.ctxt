@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mushroom
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Mushroom\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Moves\ one\ unit\ down\ the\ screen\ each\ act\ cycle.\r\n\ Stops\ the\ scenario\ if\ this\ mushroom\ reaches\ the\ bottom\r\n\ of\ the\ screen.\r\n
+numComments=2

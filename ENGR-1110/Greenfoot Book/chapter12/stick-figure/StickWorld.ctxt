@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StickWorld()
+comment0.text=\n\ Create\ our\ paint\ world\ with\ a\ small\ thumbnail\ camera\ image\ in\ the\ bottom\ corner.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\:\ show\ users\ as\ stick\ figures.\n
+comment2.params=trackedUsers
+comment2.target=void\ paintStickFigures(UserData[])
+comment2.text=\n\ Paint\ stick\ figures\ on\ the\ world\ background\ for\ every\ user\ we\ can\ see.\n
+comment3.params=
+comment3.target=void\ eraseBackground()
+comment3.text=\n\ Erase\ the\ world\ backgorund.\n
+numComments=4

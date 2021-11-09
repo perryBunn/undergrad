@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ moveLeft()
+comment0.text=\n\ Move\ to\ the\ left.\n
+comment1.params=
+comment1.target=void\ moveRight()
+comment1.text=\n\ Move\ to\ the\ right.\n
+numComments=2

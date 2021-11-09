@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\r\n\ This\ class\ defines\ a\ crab.\ Crabs\ live\ on\ the\ beach.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ lookForWorm()
+comment3.params=
+comment3.target=void\ checkKeyPress()
+numComments=4

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PongWorld()
+comment0.text=\n\ Create\ the\ game\ world\ with\ the\ game\ objects\ in\ it.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Watch\ for\ a\ user\ appearing\ or\ disappearing,\ and\ start/stop\ the\ game\ accordingly.\n
+comment2.params=user
+comment2.target=void\ startGame(UserData)
+comment2.text=\n\ Start\ a\ new\ game\:\ create\ the\ paddles\ for\ the\ player\ and\ the\ ball.\n
+comment3.params=
+comment3.target=void\ stopGame()
+comment3.text=\n\ Stop\ the\ game\:\ Remove\ the\ player\ paddles\ and\ ball.\n
+numComments=4

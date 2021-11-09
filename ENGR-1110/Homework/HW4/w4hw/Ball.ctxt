@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\r\n\ A\ ball\ with\ motion\ controlled\ by\ the\ keyboard\ and\ the\ ability\r\n\ to\ remove\ buttons\ from\ the\ world.\r\n\ \r\n\ @author\ \ Dean\ Hendrix\ (dh@auburn.edu)\r\n\ @author\ \ YOUR\ NAME\r\n\ @version\ 2016-02-05\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Responds\ to\ motion\ control\ from\ the\ arrow\ keys\ and\ removes\r\n\ any\ buttons\ from\ the\ world\ when\ it\ intersects\ them.\r\n
+comment2.params=
+comment2.target=void\ lookForButton()
+comment2.text=\r\n\ Checks\ to\ see\ if\ the\ ball\ is\ "touching"\ an\ object\ of\ the\ Button\ class.\ \r\n\ If\ it\ is,\ then\ the\ ball\ removes\ from\ the\ World\ a\ Button\ that\ it\ touches.\ \r\n\ If\ the\ ball\ isn't\ touching\ an\ object\ of\ the\ Button\ class,\ then\ this\ \r\n\ method\ does\ nothing.\r\n
+comment3.params=
+comment3.target=void\ handleKeyPress()
+comment3.text=\r\n\ Handles\ input\ from\ the\ arrow\ keys.\r\n
+comment4.params=
+comment4.target=void\ checkLeftArrow()
+comment4.text=\r\n\ Checks\ to\ see\ if\ the\ left\ arrow\ key\ is\ being\ pressed.\ \r\n\ If\ it\ is,\ then\ the\ ball\ sets\ its\ rotation\ angle\ to\ zero\ degrees\ \r\n\ and\ moves\ backward\ 5\ units.\ If\ it\ is\ not\ being\ pressed,\ \r\n\ this\ method\ does\ nothing.\r\n
+comment5.params=
+comment5.target=void\ checkRightArrow()
+comment5.text=\r\n\ Checks\ to\ see\ if\ the\ right\ arrow\ key\ is\ being\ pressed.\ \r\n\ If\ it\ is,\ then\ the\ ball\ sets\ its\ rotation\ angle\ to\ zero\ degrees\ \r\n\ and\ moves\ forward\ 5\ units.\ If\ it\ is\ not\ being\ pressed,\ \r\n\ this\ method\ does\ nothing.\r\n
+comment6.params=
+comment6.target=void\ checkUpArrow()
+comment6.text=\r\n\ Checks\ to\ see\ if\ the\ up\ arrow\ key\ is\ being\ pressed.\ \r\n\ If\ it\ is,\ then\ the\ ball\ sets\ its\ rotation\ angle\ to\ 270\ degrees\ \r\n\ and\ moves\ forward\ 5\ units.\ If\ it\ is\ not\ being\ pressed,\ \r\n\ this\ method\ does\ nothing.\r\n
+comment7.params=
+comment7.target=void\ checkDownArrow()
+comment7.text=\r\n\ Checks\ to\ see\ if\ the\ down\ arrow\ key\ is\ being\ pressed.\ \r\n\ If\ it\ is,\ then\ the\ ball\ sets\ its\ rotation\ angle\ to\ 90\ degrees\ \r\n\ and\ moves\ forward\ 5\ units.\ If\ it\ is\ not\ being\ pressed,\ \r\n\ this\ method\ does\ nothing.\r\n
+numComments=8
