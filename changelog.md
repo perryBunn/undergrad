@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2021-11-9
 ### Added
 - Cloned existing repos into root directory.
-- Copied Disclaimer and License files from sub-projects.com.
+- Copied Disclaimer and License files from sub-projects.
 - This changelog :tada:
 
 ### Removed
