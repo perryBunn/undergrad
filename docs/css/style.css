@@ -1,0 +1,105 @@
+* {
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #252728;
+	color: #fff;
+	padding: 4em;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	background-color: #252728;
+	filter:  invert(1);
+}
+
+div#menu {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 3em;
+}
+
+header img {
+	float: left;
+	max-height: 45vh;
+	width: auto;
+}
+
+header h1,h4 {
+	padding-left: 5vw;
+	position: relative;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 15vh;
+}
+
+.content {
+	max-width: 85vw;
+}
+
+.content h2 {
+	margin-bottom: 0;
+}
+
+.content h6 {
+	margin-top: 0;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+td {
+	max-width: 50%;
+}
+
+td a {
+	display: inline-block;
+}
+
+div.block {
+	width: 200px;
+	height: 200px;
+	border-color: lightgray;
+	border-radius: 1px;
+	border-style: solid;
+	text-align: center;
+}
+
+div.block p {
+	text-align: left;
+	/*float: left;*/
+	margin: 0;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+div.block h5 {
+	font-size: 125%;
+	position: relative;
+	top: 23%;
+	margin:auto;
+    vertical-align:middle;
+}
+
+p.java {
+	color: #9e4f33;
+}
+p.date {
+	color: gray;
+}
