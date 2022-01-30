@@ -1,0 +1,24 @@
+extends layout
+block content
+    div.text-center
+        p Welcome Dear #{username}!
+        h3 Search for user:
+        form(class="form-editUser" method="POST" action="/admin/results")
+            #error
+                if error
+                    p.text-danger Error !!!
+                    - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+                        h1(class=h1Classes) Please search for user
+
+            //-input username
+            label( for="inputEmail" class= "sr-only") Email address
+            input(type="email" name="username" id="inputEmail" class="form-control" placeholder="email" autofocus)
+            //-input account number
+            label( for="inputAccNum" class="sr-only") Account number
+            input(type="string" name="accountNum" id="inputAccNum" class="form-control" placeholder="account number" autofocus)
+            //-submit button
+            - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'btn-block'];
+            button(class=buttonClass type="submit") Search
+            - var pClasses=['mt-5', 'mb-3', 'text-muted'];
+                p(class=pClasses) ©
+                    a NDA

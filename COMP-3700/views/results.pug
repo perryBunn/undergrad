@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    div.text-center
+        table.text-center
+            thead
+                tr
+                    th Account ID
+                    th Username
+                    th password
+                    th type
+                    th balance
+            tfoot
+            tbody
+                - each doc in docs
+                tr
+                    td= doc.accountID
+                    td= doc.username
+                    td= doc.password
+                    td= doc.type
+                    td= doc.balance

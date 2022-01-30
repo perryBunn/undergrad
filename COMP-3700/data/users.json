@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5e9e742e8d76946b268aa92a"},"username":"teller@teller.com","password":"teller","userID":"5e9e742e8d76946b268aa92a","type":"teller"}
+{"_id":{"$oid":"5e9e759d8d76946b268aa92b"},"username":"admin@admin.com","password":"admin","userID":"5e9e759d8d76946b268aa92b","type":"admin"}
+{"_id":{"$oid":"5e9e99e18d76946b268aa92c"},"username":"test@test.com","password":"test","userID":"5e9e99e18d76946b268aa92c","type":"customer"}
